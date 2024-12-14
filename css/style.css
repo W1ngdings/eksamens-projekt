@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: jumpisregular;
+    src: url(/fonts/jumpispersonaluse-regular.otf);
+}
+body {
+    font-family: jumpisregular;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    
+}
