@@ -7,17 +7,3 @@
     font-family: jumpisregular;
     src: url(/fonts/jumpispersonaluse-regular.otf);
 }
-body {
-    font-family: jumpisregular;
-}
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    
-}
-img {
-    height: 10rem;
-    width: 10rem;
-    position: fixed;
-}
-
