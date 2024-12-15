@@ -7,3 +7,7 @@
     font-family: jumpisregular;
     src: url(/fonts/jumpispersonaluse-regular.otf);
 }
+@font-face {
+    font-family: jumpisoutline;
+    src: url(/fonts/jumpispersonaluse-outline.otf);
+}
