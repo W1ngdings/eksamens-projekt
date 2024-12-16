@@ -38,48 +38,153 @@
         display: grid;
         
     }
+
+    /* soenth styling */
+
     .soenthbox {
-        width: 25rem;
-        height: 25rem;
+        margin-top: 10rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        width: 20rem;
+        height: 10rem;
         
     }
     .soenthimage {
-       width: 100%;
-       height: 100%;
-        object-fit: contain;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border: solid #468add 2px;
     }
     .loerdagtext {
-        margin-right: 20rem;
-        margin-top: -18rem;
+        margin-left: 0.5rem;
+        margin-top: -10rem;
     }
     .regularloerdag {
         font-family: jumpisregular;
         position: absolute;
         color: #ff9000;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .outlineloerdag {
         font-family: jumpisoutline;
         position: absolute;
         font-weight: bolder;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .soenthtext {
-        margin-left: 20rem;
+        margin-left: 16rem;
         margin-top: 8rem;
     }
     .regularsoenth {
         font-family: jumpisregular;
         position: absolute;
         color: #468add;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .outlinesoenth {
         font-family: jumpisoutline;
         position: absolute;
         font-weight: bolder;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
+    /* gorgeous styling */
+
+    .gorgeousbox {
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        width: 20rem;
+        height: 10rem;
+    }
+
+    .gorgeousimage {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border: solid #468add 2px;
+    }
+    .soendagtext {
+        margin-left: 0.5rem;
+        margin-top: -10rem;
+    }
+    
+    .outlinesoendag {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+    .regularsoendag {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #ff9000;
+        font-size: 1.5rem;
+    }
+    .gorgeoustext {
+        margin-left: 15rem;
+        margin-top: 8rem;
+    }
+    .outlinegorgeous {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+    .regulargorgeous {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #468add;
+        font-size: 1.5rem;
+    }
+    
+    /* baryl styling */
+
+    .barylbox {
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        width: 20rem;
+        height: 10rem;
+    }
+    .barylimage {
+        width: 100%;
+        height: 100%;
+         object-fit: fill;
+         border: solid #468add 2px;
+    }
+
+    .mandagtext {
+        margin-left: 0.5rem;
+        margin-top: -10rem;
+    }
+    .outlinemandag {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+    .regularmandag {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #ff9000;
+        font-size: 1.5rem;
+    }
+    .baryltext {
+        margin-left: 17rem;
+        margin-top: 8rem;
+    }
+    .outlinebaryl {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+    .regularbaryl {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #468add;
+        font-size: 1.5rem;
+    }
 
  }
