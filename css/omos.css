@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.radarlogo {
+    height: 10rem;
+    width: 10rem;
+}
+.omoscenter {
+    width: 10rem;
+    height: 10rem;
+}
+.mission {
+    width: 10rem;
+    height: 10rem;
+}
+.footerlogo {
+    width: 10rem;
+    height: 10rem;
+}
