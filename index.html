@@ -15,7 +15,16 @@
    
     <section class="backgroundimage">
         <header> 
-            <nav>
+
+            <input type="checkbox" id="burgermenutoggle" class="burgercheckbox">
+
+            <label for="burgermenutoggle" class="burgermenu">
+               <span class="line"></span>
+               <span class="line"></span>
+               <span class="line"></span>
+            </label>
+
+            <nav class="menu">
                 <ul>
                     <li><a href="index.html">forside</a></li>
                     <li><a href="events.html">events</a></li>
@@ -23,14 +32,19 @@
                     <li><a href="frivillig.html">frivillig</a></li>
                 </ul>
             </nav>
-            <img class="radarlogo" src="images/radarlogo.webp" alt="radar logo">
-            <h1 class="adar">adar</h1>
+            <section class="logobox">
+                <img class="radarlogo" src="images/radarlogo.webp" alt="radar logo">
+                <h2 class="regularadar">adar</h2>
+                <h2 class="outlineadar">adar</h2>
+            </section>
         </header>
 
         <main>
             <section class="koncerterbox">
-                <h2 class="outlinekoncerter">kommende koncerter</h2>
-                <h2 class="regularkoncerter">kommende koncerter</h2>
+                <section class="koncertertext">
+                    <h2 class="outlinekoncerter">kommende koncerter</h2>
+                    <h2 class="regularkoncerter">kommende koncerter</h2>
+                </section>
                 <section class="soenthbox">
                     <img class="soenthimage" src="/images/soenth.webp" alt="billede af medlemmerne af gruppen soenth">
                         <section class="loerdagtext">
