@@ -11,3 +11,10 @@
     font-family: jumpisoutline;
     src: url(/fonts/jumpispersonaluse-outline.otf);
 }
+.radarlogo {
+    height: 10rem;
+    width: 10rem;
+}
+.forsidebaggrund {
+    filter: grayscale(100%);
+}
