@@ -39,6 +39,20 @@
         
     }
 
+    .regularkoncerter {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #ff9000;
+        font-size: 2rem;
+    }
+    
+    .outlinekoncerter {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-weight: bolder;
+        font-size: 2rem;
+    }
+
     /* soenth styling */
 
     .soenthbox {
