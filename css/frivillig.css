@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: jumpisregular;
+    src: url(/fonts/jumpispersonaluse-regular.otf);
+}
+@font-face {
+    font-family: jumpisoutline;
+    src: url(/fonts/jumpispersonaluse-outline.otf);
+}
+@media screen and (max-width: 414px) {
+ 
+    .burgercheckbox {
+        display: none;
+    }
+    
+    /* Styling af burgerikonet */
+    .burgermenu {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        margin: 10px;
+    }
+    
+    .line {
+        height: 3px;
+        background-color: #ff9000; /* Farve på linjerne */
+        margin: 3px 0;
+        
+    }
+    
+    /* Styling af menuen */
+    .menu {
+        display: none;
+        background-color: #444140;
+        position: absolute;
+        top: 90px; 
+        right: 0;
+        width: 100%;
+        text-align: center;
+        font-family: jumpisregular;
+        color: #468add;
+        z-index: 3;
+    }
+
+    .menu ul {
+        list-style: none;
+    }
+    
+    .menu ul li {
+        padding: 15px;
+    }
+    
+    .menu ul li a {
+        color: #ff9000;
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+    }
+    
+    .burgercheckbox:checked + .burgermenu + .menu {
+        display: block;
+    }
+    
+
+    body {
+        
+        background: linear-gradient(180deg, #ffffff00, #444140);
+    }
+         
+    .frivilligebaggrund {
+        height: 100%;
+        width: 100%;
+        filter: grayscale(100%);
+        position: absolute;
+        object-fit: cover;
+        z-index: -1;
+    }
+    
+    /* logo styling */
+    .logobox {
+        width: 100%;
+        height: 100%;
+    }
+
+    .radarlogo {
+        height: 10rem;
+        width: 10rem;
+        position: absolute;
+        z-index: 1;
+        margin-left: 5rem;
+        
+    }
+    
+    .regularadar {
+        font-family: jumpisregular;
+        position: absolute;
+        color: black;
+        margin-left: 12.5rem;
+        margin-top: 2rem;
+        z-index: 2;
+        font-size: 4rem;
+    }
+    .outlineadar {
+        font-family: jumpisoutline;
+        position: absolute;
+        color: #ffffff;
+        margin-left: 12.5rem;
+        margin-top: 2rem;
+        z-index: 2;
+        font-size: 4rem;
+        font-weight: lighter;
+    }
+}

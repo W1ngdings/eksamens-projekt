@@ -71,10 +71,9 @@
     
 
     body {
-        
-        background: linear-gradient(180deg, #ffffff00, #444140);
+        background-color: #444140;
     }
-
+         
     .forsidebaggrund {
         height: 100%;
         width: 100%;
@@ -319,9 +318,9 @@
     }
 
     .artistertext {
-        margin-left: 5rem;
-        margin-top: 10rem;
-        margin-bottom: -6rem;
+        margin-left: 10rem;
+        margin-top: 2rem;
+        margin-bottom: -10rem;
     }
     
     
@@ -342,8 +341,10 @@
         font-size: 2rem;
     }
 
+    /*ungskab styling*/
+
     .ungskabbox {
-        margin-top: 10rem;
+        margin-top: 6rem;
         margin-left: 3rem;
         margin-right: 3rem;
         width: 20rem;
@@ -365,8 +366,10 @@
 
 
     .ungskabtext {
-        margin-left: 16rem;
-        margin-top: 8rem;
+        margin-left: 14.3rem;
+        margin-top: -2.1rem;
+        position: absolute;
+        width: 6rem;
     }
 
     .regularungskab {
@@ -388,7 +391,7 @@
         margin-left: 0.4rem;
     }
 
-    /* gorgeous styling */
+    /* asbjoern styling */
 
     .asbjoernbox {
         margin-top: 2rem;
@@ -404,15 +407,11 @@
         object-fit: fill;
         border: solid #468add 2px;
     }
-
-    .asbjoerntext {
-        margin-left: 0.5rem;
-        margin-top: -10rem;
-    }
     
     .asbjoerntext {
-        margin-left: 15rem;
-        margin-top: 8rem;
+        margin-left: 15.4rem;
+        margin-top: -2.1rem;
+        position: absolute;
     }
 
     .outlineasbjoern {
@@ -429,7 +428,12 @@
         font-size: 1.5rem;
     }
     
-    /* baryl styling */
+    .asbjoernsome {
+        position: absolute;
+        margin-top: -9.8rem;
+        margin-left: 0.4rem;
+    }
+    /* guzo styling */
 
     .guzobox {
         margin-top: 2rem;
@@ -448,7 +452,8 @@
 
     .guzotext {
         margin-left: 17rem;
-        margin-top: 8rem;
+        margin-top: -2.1rem;
+        position: absolute;
     }
 
     .outlineguzo {
@@ -465,6 +470,12 @@
         font-size: 1.5rem;
     }
 
+    .guzosome {
+        position: absolute;
+        margin-top: -9.8rem;
+        margin-left: 0.4rem;
+    }
+
     .spotifylogo {
         height: 2rem;
         width: 2rem;
@@ -474,6 +485,63 @@
         width: 2rem;
     }
 
+    /* footer styling */
 
+    .footerbox {
+        display: flex;
+        margin-top: 4rem;
+    }
 
+    .footerlogo {
+        width: 4rem;
+        height: 4rem;
+        margin-left: 1rem;
+    }
+
+    .somelogobox {
+        margin-top: 2rem;
+        margin-left: 1rem;
+        height: 5rem;
+        width: 9rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .somelogo {
+        height: 2rem;
+        width: 2rem;
+        margin-right: -0.1rem;
+        margin-left: -0.3rem;
+    }
+
+    .somelogo2 {
+        height: 1rem;
+        width: 1rem;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+    }
+
+    .socialh2 {
+        font-family: jumpisregular;
+        font-size: 1.2rem;
+        margin-bottom: -3rem;
+        color: #468add;
+        margin-left: 2rem;
+    }
+
+    .kontaktos {
+        font-size: 0.8rem;
+        margin-left: 1rem;
+    }
+
+    .kontakth2 {
+        font-family: jumpisregular;
+        color: #468add;
+    }
+
+    .kontaktinfo {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
  }
