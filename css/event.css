@@ -321,24 +321,6 @@
         width: 2rem;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /*ungskab styling*/
 
     .ungskabbox {
@@ -356,12 +338,6 @@
         object-fit: fill;
         border: solid #468add 2px;
     }
-
-    .ungskabtext {
-        margin-left: 0.5rem;
-        margin-top: -10rem;
-    }
-
 
     .ungskabtext {
         margin-left: 14.3rem;
@@ -389,12 +365,167 @@
         margin-left: 0.4rem;
     }
 
+    .semeretext {
+        margin-left: 11rem;
+        margin-top: 2rem;
+        margin-bottom: -6rem;
+    }
+    
+    .regularsemere {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #ff9000;
+        font-size: 1.5rem;
+    }
 
+    .outlinesemere {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-size: 1.5rem;
+    }
 
+    /*events styling*/
 
+    .eventsbox {
+        display: grid;
+    }
 
+    .eventstext {
+        margin-left: 10.8rem;
+        margin-top: 6rem;
+        margin-bottom: -6rem;
+    }
+    
+    .regularevents {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #ff9000;
+        font-size: 2rem;
 
+        
+    }
+    
+    .outlineevents {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-weight: bolder;
+        font-size: 2rem;
+    }
 
+    /* dj styling*/
+
+    .djbox {
+        margin-top: 10rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        width: 20rem;
+        height: 10rem;
+        
+    }
+
+    .djimage {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border: solid #468add 2px;
+    }
+
+    .djtext {
+        margin-left: 12.8rem;
+        margin-top: -2.1rem;
+        position: absolute;
+        width: 7rem;
+    }
+
+    .regulardj {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #468add;
+        font-size: 1.5rem;
+    }
+
+    .outlinedj {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-size: 1.5rem;
+        z-index: 2;
+    }
+
+    /*musiclab styling*/
+
+    .musiclabbox {
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        width: 20rem;
+        height: 10rem;
+        
+    }
+
+    .musiclabimage {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border: solid #468add 2px;
+    }
+
+    .musiclabtext {
+        margin-left: 10.5rem;
+        margin-top: -2.1rem;
+        position: absolute;
+        width: 11rem;
+    }
+
+    .regularmusiclab {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #468add;
+        font-size: 1.5rem;
+    }
+
+    .outlinemusiclab {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-size: 1.5rem;
+    }
+
+    /*udendoers styling*/
+
+    .udendoersbox {
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        width: 20rem;
+        height: 10rem;
+        
+    }
+
+    .udendoersimage {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border: solid #468add 2px;
+    }
+
+    .udendoerstext {
+        margin-left: 9.7rem;
+        margin-top: -2.1rem;
+        position: absolute;
+        width: 10rem;
+    }
+
+    .regularudendoers {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #468add;
+        font-size: 1.5rem;
+    }
+
+    .outlineudendoers {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-size: 1.5rem;
+    }
 
     /* footer styling */
 
