@@ -47,7 +47,7 @@
         text-align: center;
         font-family: jumpisregular;
         color: #468add;
-        z-index: 2;
+        z-index: 3;
     }
 
     .menu ul {
@@ -116,11 +116,13 @@
         margin-top: 2rem;
         z-index: 2;
         font-size: 4rem;
+        font-weight: lighter;
     }
+
+    /* kommende koncerter styling */
 
     .koncerterbox {
         display: grid;
-        
     }
 
     .koncertertext {
@@ -128,6 +130,7 @@
         margin-top: 10rem;
         margin-bottom: -6rem;
     }
+    
     .regularkoncerter {
         font-family: jumpisregular;
         position: absolute;
@@ -154,42 +157,48 @@
         height: 10rem;
         
     }
+
     .soenthimage {
         width: 100%;
         height: 100%;
         object-fit: fill;
         border: solid #468add 2px;
     }
+
     .loerdagtext {
         margin-left: 0.5rem;
         margin-top: -10rem;
     }
+
     .regularloerdag {
         font-family: jumpisregular;
         position: absolute;
         color: #ff9000;
         font-size: 1.5rem;
     }
+
     .outlineloerdag {
         font-family: jumpisoutline;
         position: absolute;
-        font-weight: bolder;
         font-size: 1.5rem;
+        
     }
+
     .soenthtext {
         margin-left: 16rem;
         margin-top: 8rem;
     }
+
     .regularsoenth {
         font-family: jumpisregular;
         position: absolute;
         color: #468add;
         font-size: 1.5rem;
     }
+
     .outlinesoenth {
         font-family: jumpisoutline;
         position: absolute;
-        font-weight: bolder;
         font-size: 1.5rem;
     }
 
@@ -209,6 +218,7 @@
         object-fit: fill;
         border: solid #468add 2px;
     }
+
     .soendagtext {
         margin-left: 0.5rem;
         margin-top: -10rem;
@@ -220,22 +230,26 @@
         font-weight: bolder;
         font-size: 1.5rem;
     }
+
     .regularsoendag {
         font-family: jumpisregular;
         position: absolute;
         color: #ff9000;
         font-size: 1.5rem;
     }
+
     .gorgeoustext {
         margin-left: 15rem;
         margin-top: 8rem;
     }
+
     .outlinegorgeous {
         font-family: jumpisoutline;
         position: absolute;
         font-weight: bolder;
         font-size: 1.5rem;
     }
+
     .regulargorgeous {
         font-family: jumpisregular;
         position: absolute;
@@ -252,6 +266,7 @@
         width: 20rem;
         height: 10rem;
     }
+
     .barylimage {
         width: 100%;
         height: 100%;
@@ -263,34 +278,202 @@
         margin-left: 0.5rem;
         margin-top: -10rem;
     }
+
     .outlinemandag {
         font-family: jumpisoutline;
         position: absolute;
         font-weight: bolder;
         font-size: 1.5rem;
     }
+
     .regularmandag {
         font-family: jumpisregular;
         position: absolute;
         color: #ff9000;
         font-size: 1.5rem;
     }
+
     .baryltext {
         margin-left: 17rem;
         margin-top: 8rem;
     }
+
     .outlinebaryl {
         font-family: jumpisoutline;
         position: absolute;
         font-weight: bolder;
         font-size: 1.5rem;
     }
+    
     .regularbaryl {
         font-family: jumpisregular;
         position: absolute;
         color: #468add;
         font-size: 1.5rem;
     }
+
+    /*artister styling*/
+
+    .artisterbox {
+        display: grid;
+    }
+
+    .artistertext {
+        margin-left: 5rem;
+        margin-top: 10rem;
+        margin-bottom: -6rem;
+    }
     
+    
+
+    .regularartister {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #ff9000;
+        font-size: 2rem;
+
+        
+    }
+    
+    .outlineartister {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-weight: bolder;
+        font-size: 2rem;
+    }
+
+    .ungskabbox {
+        margin-top: 10rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        width: 20rem;
+        height: 10rem;
+        
+    }
+
+    .ungskabimage {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border: solid #468add 2px;
+    }
+
+    .ungskabtext {
+        margin-left: 0.5rem;
+        margin-top: -10rem;
+    }
+
+
+    .ungskabtext {
+        margin-left: 16rem;
+        margin-top: 8rem;
+    }
+
+    .regularungskab {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #468add;
+        font-size: 1.5rem;
+    }
+
+    .outlineungskab {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-size: 1.5rem;
+    }
+
+    .ungskabsome {
+        position: absolute;
+        margin-top: -9.8rem;
+        margin-left: 0.4rem;
+    }
+
+    /* gorgeous styling */
+
+    .asbjoernbox {
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        width: 20rem;
+        height: 10rem;
+    }
+
+    .asbjoernimage {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border: solid #468add 2px;
+    }
+
+    .asbjoerntext {
+        margin-left: 0.5rem;
+        margin-top: -10rem;
+    }
+    
+    .asbjoerntext {
+        margin-left: 15rem;
+        margin-top: 8rem;
+    }
+
+    .outlineasbjoern {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+
+    .regularasbjoern {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #468add;
+        font-size: 1.5rem;
+    }
+    
+    /* baryl styling */
+
+    .guzobox {
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        width: 20rem;
+        height: 10rem;
+    }
+
+    .guzoimage {
+        width: 100%;
+        height: 100%;
+         object-fit: fill;
+         border: solid #468add 2px;
+    }
+
+    .guzotext {
+        margin-left: 17rem;
+        margin-top: 8rem;
+    }
+
+    .outlineguzo {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+    
+    .regularguzo {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #468add;
+        font-size: 1.5rem;
+    }
+
+    .spotifylogo {
+        height: 2rem;
+        width: 2rem;
+    }
+    .soundcloudlogo {
+        height: 2rem;
+        width: 2rem;
+    }
+
+
 
  }
