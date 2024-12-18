@@ -599,7 +599,599 @@ a{
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     }
  }
- 
-@media screen and (max-width: 414px) {
 
-}
+ @media screen and (min-width: 415px) and (max-width:1365 ) {
+
+ }
+
+
+
+
+ 
+ @media screen and (min-width: 1366px) {
+
+    .burgertoggle {
+        display: none;
+    }
+
+        /* Styling af menuen */
+
+        .menu {
+            font-family: jumpisregular;
+        }
+
+        .menu ul {
+            display: flex;          
+            justify-content: center; 
+            padding: 0;             
+            margin: 0;     
+            list-style: none;     
+        }
+        
+        .menu li {
+            margin: auto;      
+            color: #ff9000;          
+            font-size: 2rem;        
+
+        }
+        
+        /*dropdown menu styling */ 
+    
+        .dropdown {
+            position: relative; 
+         }
+            
+            
+        .dropdown .content {
+            display: none; 
+            position: absolute; 
+            top: 100%;
+            left: -7rem;  
+            background-color: #468add; 
+            list-style: none;
+            margin-left: 6.5rem;
+            z-index: 10;
+            width: 130%; 
+            text-align: center;
+        }
+            
+            
+        .dropdown .content li {
+            padding: 0.8rem;
+        }
+            
+        .dropdown .content li a {
+            color: #ff9000;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+            
+            
+         .dropdown:hover .content {
+            display: block; 
+        }
+        
+    
+        
+        body {
+            background-color: #444140;
+        }
+             
+        .forsidebaggrund {
+            height: 100%;
+            width: 100%;
+            filter: grayscale(100%);
+            position: absolute;
+            object-fit: cover;
+            z-index: -1;
+        }
+    
+        .gradientbox {
+            background-color:#444140;
+            background: linear-gradient(180deg, #ffffff00, #444140);
+            z-index: 2;
+            width: 100%;
+            height: 40%;
+            position: absolute;
+            margin-top: 4rem;
+        }
+        
+        /* logo styling */
+        .logobox {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-left: 2.5rem;
+            
+        }
+    
+        .radarlogo {
+            height: 15rem;
+            width: 15rem;
+            position: absolute;
+            z-index: 1;
+            margin-top: 2rem;
+            margin-left: 2rem;
+            
+        }
+        
+        .regularadar {
+            font-family: jumpisregular;
+            position: absolute;
+            color: black;
+            margin-left: -15.5rem;
+            margin-top: 5.5rem;
+            z-index: 2;
+            font-size: 6rem;
+        }
+        .outlineadar {
+            font-family: jumpisoutline;
+            position: absolute;
+            color: #ffffff;
+            margin-left: -15.5rem;
+            margin-top: 5.5rem;
+            z-index: 2;
+            font-size: 6rem;
+            font-weight: lighter;
+        }
+    
+        /* kommende koncerter styling */
+    
+        .koncerterbox {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            flex-wrap: nowrap;
+            margin-top: 10rem;
+            margin-bottom: -5rem;
+        }
+    
+        .koncertertext {
+            margin-left: 5rem;
+            margin-bottom: 15rem;
+            margin-top: 10rem;
+        }
+        
+        .regularkoncerter {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #ff9000;
+            font-size: 2rem;
+            margin-left: 3rem;
+    
+            
+        }
+        
+        .outlinekoncerter {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-weight: bolder;
+            font-size: 2rem;
+            margin-left: 3rem;
+        }
+    
+        /* soenth styling */
+    
+        .soenthbox {
+            margin-top: 10rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            width: 20rem;
+            height: 10rem;
+            
+        }
+    
+        .soenthimage {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            border: solid #468add 2px;
+        }
+    
+        .loerdagtext {
+            margin-left: 0.5rem;
+            margin-top: -10rem;
+        }
+    
+        .regularloerdag {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #ff9000;
+            font-size: 1.5rem;
+        }
+    
+        .outlineloerdag {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-size: 1.5rem;
+            
+        }
+    
+        .soenthtext {
+            margin-left: 16rem;
+            margin-top: 8rem;
+        }
+    
+        .regularsoenth {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #468add;
+            font-size: 1.5rem;
+        }
+    
+        .outlinesoenth {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-size: 1.5rem;
+        }
+    
+        /* gorgeous styling */
+    
+        .gorgeousbox {
+            margin-top: 2rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            width: 20rem;
+            height: 10rem;
+            z-index: 3;
+        }
+    
+        .gorgeousimage {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            border: solid #468add 2px;
+        }
+    
+        .soendagtext {
+            margin-left: 0.5rem;
+            margin-top: -10rem;
+        }
+        
+        .outlinesoendag {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-weight: bolder;
+            font-size: 1.5rem;
+        }
+    
+        .regularsoendag {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #ff9000;
+            font-size: 1.5rem;
+        }
+    
+        .gorgeoustext {
+            margin-left: 15rem;
+            margin-top: 8rem;
+        }
+    
+        .outlinegorgeous {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-weight: bolder;
+            font-size: 1.5rem;
+        }
+    
+        .regulargorgeous {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #468add;
+            font-size: 1.5rem;
+        }
+        
+        /* baryl styling */
+    
+        .barylbox {
+            margin-top: 2rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            width: 20rem;
+            height: 10rem;
+            z-index: 3;
+        }
+    
+        .barylimage {
+            width: 100%;
+            height: 100%;
+             object-fit: fill;
+             border: solid #468add 2px;
+        }
+    
+        .mandagtext {
+            margin-left: 0.5rem;
+            margin-top: -10rem;
+        }
+    
+        .outlinemandag {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-weight: bolder;
+            font-size: 1.5rem;
+        }
+    
+        .regularmandag {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #ff9000;
+            font-size: 1.5rem;
+        }
+    
+        .baryltext {
+            margin-left: 17rem;
+            margin-top: 8rem;
+        }
+    
+        .outlinebaryl {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-weight: bolder;
+            font-size: 1.5rem;
+        }
+        
+        .regularbaryl {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #468add;
+            font-size: 1.5rem;
+        }
+    
+        /*artister styling*/
+    
+        .artisterbox {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            flex-wrap: nowrap;
+            margin-top: 10rem;
+            margin-left: -5.2rem;
+        }
+    
+        .artistertext {
+            margin-left: 10rem;
+            margin-bottom: 15rem;
+            margin-top: 2rem;
+            z-index: 3;
+        }
+        
+        
+    
+        .regularartister {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #ff9000;
+            font-size: 2rem;
+            margin-left: 3rem;
+    
+            
+        }
+        
+        .outlineartister {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-weight: bolder;
+            font-size: 2rem;
+            margin-left: 3rem;
+        }
+    
+        /*ungskab styling*/
+    
+        .ungskabbox {
+            margin-top: 6rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            width: 20rem;
+            height: 10rem;
+            z-index: 3;
+        }
+    
+        .ungskabimage {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            border: solid #468add 2px;
+        }
+    
+        .ungskabtext {
+            margin-left: 0.5rem;
+            margin-top: -10rem;
+        }
+    
+    
+        .ungskabtext {
+            margin-left: 14.3rem;
+            margin-top: -2.1rem;
+            position: absolute;
+            width: 6rem;
+        }
+    
+        .regularungskab {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #468add;
+            font-size: 1.5rem;
+        }
+    
+        .outlineungskab {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-size: 1.5rem;
+        }
+    
+        .ungskabsome {
+            position: absolute;
+            margin-top: -9.8rem;
+            margin-left: 0.4rem;
+        }
+    
+        /* asbjoern styling */
+    
+        .asbjoernbox {
+            margin-top: 2rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            width: 20rem;
+            height: 10rem;
+            z-index: 3;
+        }
+    
+        .asbjoernimage {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            border: solid #468add 2px;
+        }
+        
+        .asbjoerntext {
+            margin-left: 15.4rem;
+            margin-top: -2.1rem;
+            position: absolute;
+        }
+    
+        .outlineasbjoern {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-weight: bolder;
+            font-size: 1.5rem;
+        }
+    
+        .regularasbjoern {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #468add;
+            font-size: 1.5rem;
+        }
+        
+        .asbjoernsome {
+            position: absolute;
+            margin-top: -9.8rem;
+            margin-left: 0.4rem;
+        }
+        /* guzo styling */
+    
+        .guzobox {
+            margin-top: 2rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            width: 20rem;
+            height: 10rem;
+            z-index: 3;
+        }
+    
+        .guzoimage {
+            width: 100%;
+            height: 100%;
+             object-fit: fill;
+             border: solid #468add 2px;
+        }
+    
+        .guzotext {
+            margin-left: 17rem;
+            margin-top: -2.1rem;
+            position: absolute;
+        }
+    
+        .outlineguzo {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-weight: bolder;
+            font-size: 1.5rem;
+        }
+        
+        .regularguzo {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #468add;
+            font-size: 1.5rem;
+        }
+    
+        .guzosome {
+            position: absolute;
+            margin-top: -9.8rem;
+            margin-left: 0.4rem;
+        }
+    
+        .spotifylogo {
+            height: 2rem;
+            width: 2rem;
+        }
+        .soundcloudlogo {
+            height: 2rem;
+            width: 2rem;
+        }
+    
+        /* footer styling */
+    
+        .footerbox {
+            display: flex;
+            margin-top: 4rem;
+            width: 100%;
+            margin-bottom: 3rem;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+    
+        .footerlogo {
+            width: 8rem;
+            height: 8rem;
+            margin-left: -1rem;
+        }
+    
+        .somelogobox {
+            margin-top: 2rem;
+            margin-left: 1rem;
+            height: 5rem;
+            width: 9rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .somelogo {
+            height: 5rem;
+            width: 5rem;
+            margin-right: -0.1rem;
+            margin-left: -0.3rem;
+        }
+    
+        .somelogo2 {
+            height: 2.5rem;
+            width: 2.5rem;
+            margin-left: 0.3rem;
+            margin-right: 0.3rem;
+        }
+    
+        .socialh2 {
+            font-family: jumpisregular;
+            font-size: 2rem;
+            margin-bottom: -2rem;
+            color: #468add;
+            margin-left: 0.5rem;
+        }
+    
+        .kontaktos {
+            font-size: 1rem;
+            margin-left: 1rem;
+            line-height: 2rem;
+            margin-top: 1rem;
+            margin-right: -6rem;
+        }
+    
+        .kontakth2 {
+            font-family: jumpisregular;
+            color: #468add;
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+    
+        .kontaktinfo {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+ }

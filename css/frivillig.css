@@ -374,6 +374,205 @@ a{
     
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (min-width: 415px) and (max-width:1365 ) {
+
+}
+
+ 
+@media screen and (min-width: 1366px) {
+
+    .burgertoggle {
+        display: none;
+    }
+
+        /* Styling af menuen */
+
+        .menu {
+            font-family: jumpisregular;
+        }
+
+        .menu ul {
+            display: flex;          
+            justify-content: center; 
+            padding: 0;             
+            margin: 0;     
+            list-style: none;     
+        }
+        
+        .menu li {
+            margin: auto;      
+            color: #ff9000;          
+            font-size: 2rem;        
+
+        }
+        
+        /*dropdown menu styling */ 
+    
+        .dropdown {
+            position: relative; 
+         }
+            
+            
+        .dropdown .content {
+            display: none; 
+            position: absolute; 
+            top: 100%;
+            left: -7rem;  
+            background-color: #468add; 
+            list-style: none;
+            margin-left: 6.5rem;
+            z-index: 10;
+            width: 130%; 
+            text-align: center;
+        }
+            
+            
+        .dropdown .content li {
+            padding: 0.8rem;
+        }
+            
+        .dropdown .content li a {
+            color: #ff9000;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+            
+            
+         .dropdown:hover .content {
+            display: block; 
+        }
+
+            
+    body {
+        background-color: #444140;
+    }
+         
+    .frivilligbaggrund {
+        height: 100%;
+        width: 100%;
+        filter: grayscale(100%);
+        position: absolute;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .gradientbox {
+        background-color:#444140;
+        background: linear-gradient(180deg, #ffffff00, #444140);
+        z-index: 2;
+        width: 100%;
+        height: 40%;
+        position: absolute;
+        margin-top: -16.4rem;
+    }
+    
+    /* logo styling */
+    .logobox {
+        width: 100%;
+        height: 100%;
+    }
+
+    .radarlogo {
+        height: 10rem;
+        width: 10rem;
+        position: absolute;
+        z-index: 1;
+        margin-left: 5rem;
+        
+    }
+    
+    .regularadar {
+        font-family: jumpisregular;
+        position: absolute;
+        color: black;
+        margin-left: 12.5rem;
+        margin-top: 2rem;
+        z-index: 2;
+        font-size: 4rem;
+    }
+    .outlineadar {
+        font-family: jumpisoutline;
+        position: absolute;
+        color: #ffffff;
+        margin-left: 12.5rem;
+        margin-top: 2rem;
+        z-index: 2;
+        font-size: 4rem;
+        font-weight: lighter;
+    }
+
+
+
+
+
+
+        .footerbox {
+            display: flex;
+            margin-top: 4rem;
+            width: 100%;
+            margin-bottom: 3rem;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+    
+        .footerlogo {
+            width: 8rem;
+            height: 8rem;
+            margin-left: -1rem;
+        }
+    
+        .somelogobox {
+            margin-top: 2rem;
+            margin-left: 1rem;
+            height: 5rem;
+            width: 9rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .somelogo {
+            height: 5rem;
+            width: 5rem;
+            margin-right: -0.1rem;
+            margin-left: -0.3rem;
+        }
+    
+        .somelogo2 {
+            height: 2.5rem;
+            width: 2.5rem;
+            margin-left: 0.3rem;
+            margin-right: 0.3rem;
+        }
+    
+        .socialh2 {
+            font-family: jumpisregular;
+            font-size: 2rem;
+            margin-bottom: -2rem;
+            color: #468add;
+            margin-left: 0.5rem;
+        }
+    
+        .kontaktos {
+            font-size: 1rem;
+            margin-left: 1rem;
+            line-height: 2rem;
+            margin-top: 1rem;
+            margin-right: -6rem;
+        }
+    
+        .kontakth2 {
+            font-family: jumpisregular;
+            color: #468add;
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+    
+        .kontaktinfo {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
 
 }

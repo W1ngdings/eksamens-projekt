@@ -679,6 +679,655 @@ a{
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (min-width: 415px) and (max-width:1365 ) {
+
+}
+
+
+ 
+@media screen and (min-width: 1366px) {
+
+    .burgertoggle {
+        display: none;
+    }
+
+        /* Styling af menuen */
+
+        .menu {
+            font-family: jumpisregular;
+        }
+
+        .menu ul {
+            display: flex;          
+            justify-content: center; 
+            padding: 0;             
+            margin: 0;     
+            list-style: none;     
+        }
+        
+        .menu li {
+            margin: auto;      
+            color: #ff9000;          
+            font-size: 2rem;        
+
+        }
+        
+        /*dropdown menu styling */ 
+    
+        .dropdown {
+            position: relative; 
+         }
+            
+            
+        .dropdown .content {
+            display: none; 
+            position: absolute; 
+            top: 100%;
+            left: -7rem;  
+            background-color: #468add; 
+            list-style: none;
+            margin-left: 6.5rem;
+            z-index: 10;
+            width: 130%; 
+            text-align: center;
+        }
+            
+            
+        .dropdown .content li {
+            padding: 0.8rem;
+        }
+            
+        .dropdown .content li a {
+            color: #ff9000;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+            
+            
+         .dropdown:hover .content {
+            display: block; 
+        }
+
+
+
+            
+    body {
+        background-color: #444140;
+    }
+         
+    .eventsbaggrund {
+        height: 100%;
+        width: 100%;
+        filter: grayscale(100%);
+        position: absolute;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .gradientbox {
+        background-color:#444140;
+        background: linear-gradient(180deg, #ffffff00, #444140);
+        z-index: 2;
+        width: 100%;
+        height: 40%;
+        position: absolute;
+        margin-top: -16.4rem;
+    }
+    
+    /* logo styling */
+    .logobox {
+        width: 100%;
+        height: 100%;
+    }
+
+    .radarlogo {
+        height: 10rem;
+        width: 10rem;
+        position: absolute;
+        z-index: 1;
+        margin-left: 5rem;
+        
+    }
+    
+    .regularadar {
+        font-family: jumpisregular;
+        position: absolute;
+        color: black;
+        margin-left: 12.5rem;
+        margin-top: 2rem;
+        z-index: 2;
+        font-size: 4rem;
+    }
+    .outlineadar {
+        font-family: jumpisoutline;
+        position: absolute;
+        color: #ffffff;
+        margin-left: 12.5rem;
+        margin-top: 2rem;
+        z-index: 2;
+        font-size: 4rem;
+        font-weight: lighter;
+    }
+
+
+
+    .showbox {
+        display: grid;
+        }
+    
+        .showimagebox {
+            margin-top: 10rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            padding: 8rem;
+        }
+    
+        .showimage {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            border: solid #468add 2px;
+        }
+    
+        .showtext {
+            margin-left: 8.5rem;
+            margin-top: 10rem;
+            margin-bottom: -6rem;
+        }
+        
+        .regularshow {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #ff9000;
+            font-size: 2rem;
+            z-index: 2;
+            
+        }
+        
+        .outlineshow {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-weight: bolder;
+            font-size: 2rem;
+        }
+    
+        /* koncert styling */
+        .koncerterbox {
+            display: grid;
+            
+        }
+    
+        .koncertertext {
+            margin-left: 9rem;
+            margin-top: 2rem;
+            margin-bottom: -6rem;
+        }
+        
+        .regularkoncerter {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #ff9000;
+            font-size: 2rem;
+    
+            
+        }
+        
+        .outlinekoncerter {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-weight: bolder;
+            font-size: 2rem;
+        }
+    
+         /* soenth styling */
+    
+         .soenthbox {
+            margin-top: 6rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            width: 20rem;
+            height: 10rem;
+            z-index: 3;
+            
+        }
+    
+        .soenthimage {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            border: solid #468add 2px;
+        }
+    
+        .soenthtext {
+            margin-left: 16.2rem;
+            margin-top: -2rem;
+        }
+    
+        .regularsoenth {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #468add;
+            font-size: 1.5rem;
+        }
+    
+        .outlinesoenth {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-size: 1.5rem;
+        }
+    
+        .soenthsome {
+            position: absolute;
+            margin-top: -9.8rem;
+            margin-left: 0.4rem;
+        }
+    
+        /* gorgeous styling */
+    
+        .gorgeousbox {
+            margin-top: 2rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            width: 20rem;
+            height: 10rem;
+            z-index: 3;
+        }
+    
+        .gorgeousimage {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            border: solid #468add 2px;
+        }
+    
+        .gorgeoustext {
+            margin-left: 14.8rem;
+            margin-top: -2.3rem;
+        }
+    
+        .outlinegorgeous {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-weight: bolder;
+            font-size: 1.5rem;
+        }
+    
+        .regulargorgeous {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #468add;
+            font-size: 1.5rem;
+        }
+    
+        .gorgeoussome {
+            position: absolute;
+            margin-top: -9.8rem;
+            margin-left: 0.4rem;
+        }
+        
+        /* baryl styling */
+    
+        .barylbox {
+            margin-top: 2rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            width: 20rem;
+            height: 10rem;
+        }
+    
+        .barylimage {
+            width: 100%;
+            height: 100%;
+             object-fit: fill;
+             border: solid #468add 2px;
+        }
+    
+        .baryltext {
+            margin-left: 16.8rem;
+            margin-top: -2.2rem;
+        }
+    
+        .outlinebaryl {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-weight: bolder;
+            font-size: 1.5rem;
+        }
+        
+        .regularbaryl {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #468add;
+            font-size: 1.5rem;
+        }
+    
+        .barylsome {
+            position: absolute;
+            margin-top: -9.8rem;
+            margin-left: 0.4rem;
+        }
+    
+        .spotifylogo {
+            height: 2rem;
+            width: 2rem;
+        }
+        .soundcloudlogo {
+            height: 2rem;
+            width: 2rem;
+        }
+    
+        /*ungskab styling*/
+    
+        .ungskabbox {
+            margin-top: 2rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            width: 20rem;
+            height: 10rem;
+            
+        }
+    
+        .ungskabimage {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            border: solid #468add 2px;
+        }
+    
+        .ungskabtext {
+            margin-left: 14.3rem;
+            margin-top: -2.1rem;
+            position: absolute;
+            width: 6rem;
+        }
+    
+        .regularungskab {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #468add;
+            font-size: 1.5rem;
+        }
+    
+        .outlineungskab {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-size: 1.5rem;
+        }
+    
+        .ungskabsome {
+            position: absolute;
+            margin-top: -9.8rem;
+            margin-left: 0.4rem;
+        }
+    
+        .semeretext {
+            margin-left: 11rem;
+            margin-top: 1rem;
+            margin-bottom: -8rem;
+        }
+        
+        .regularsemere {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #ff9000;
+            font-size: 1.5rem;
+        }
+    
+        .outlinesemere {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-size: 1.5rem;
+        }
+    
+        /*events styling*/
+    
+        .eventsbox {
+            display: grid;
+        }
+    
+        .eventstext {
+            margin-left: 10.8rem;
+            margin-top: 6rem;
+            margin-bottom: -8rem;
+        }
+        
+        .regularevents {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #ff9000;
+            font-size: 2rem;
+    
+            
+        }
+        
+        .outlineevents {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-weight: bolder;
+            font-size: 2rem;
+        }
+    
+        /* dj styling*/
+    
+        .djbox {
+            margin-top: 10rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            width: 20rem;
+            height: 10rem;
+            
+        }
+    
+        .djimage {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            border: solid #468add 2px;
+        }
+    
+        .djtext {
+            margin-left: 12.8rem;
+            margin-top: -2.1rem;
+            position: absolute;
+            width: 7rem;
+        }
+    
+        .regulardj {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #468add;
+            font-size: 1.5rem;
+        }
+    
+        .outlinedj {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-size: 1.5rem;
+            z-index: 2;
+        }
+    
+        /*musiclab styling*/
+    
+        .musiclabbox {
+            margin-top: 2rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            width: 20rem;
+            height: 10rem;
+            
+        }
+    
+        .musiclabimage {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            border: solid #468add 2px;
+        }
+    
+        .musiclabtext {
+            margin-left: 10.5rem;
+            margin-top: -2.1rem;
+            position: absolute;
+            width: 11rem;
+        }
+    
+        .regularmusiclab {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #468add;
+            font-size: 1.5rem;
+        }
+    
+        .outlinemusiclab {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-size: 1.5rem;
+        }
+    
+        /*udendoers styling*/
+    
+        .udendoersbox {
+            margin-top: 2rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            width: 20rem;
+            height: 10rem;
+            
+        }
+    
+        .udendoersimage {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: solid #468add 2px;
+        }
+    
+        .udendoerstext {
+            margin-left: 9.7rem;
+            margin-top: -2.1rem;
+            position: absolute;
+            width: 10rem;
+        }
+    
+        .regularudendoers {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #468add;
+            font-size: 1.5rem;
+        }
+    
+        .outlineudendoers {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-size: 1.5rem;
+        }
+    
+        /*random styling*/
+    
+        .randombox {
+            margin-top: 2rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            width: 20rem;
+            height: 10rem;
+            
+        }
+    
+        .randomimage {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: solid #468add 2px;
+        }
+    
+        .randomtext {
+            margin-left: 12rem;
+            margin-top: -2.1rem;
+            position: absolute;
+            width: 10rem;
+        }
+    
+        .regularrandom {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #468add;
+            font-size: 1.5rem;
+        }
+    
+        .outlinerandom {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-size: 1.5rem;
+        }
+
+
+        .footerbox {
+            display: flex;
+            margin-top: 4rem;
+            width: 100%;
+            margin-bottom: 3rem;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+    
+        .footerlogo {
+            width: 8rem;
+            height: 8rem;
+            margin-left: -1rem;
+        }
+    
+        .somelogobox {
+            margin-top: 2rem;
+            margin-left: 1rem;
+            height: 5rem;
+            width: 9rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .somelogo {
+            height: 5rem;
+            width: 5rem;
+            margin-right: -0.1rem;
+            margin-left: -0.3rem;
+        }
+    
+        .somelogo2 {
+            height: 2.5rem;
+            width: 2.5rem;
+            margin-left: 0.3rem;
+            margin-right: 0.3rem;
+        }
+    
+        .socialh2 {
+            font-family: jumpisregular;
+            font-size: 2rem;
+            margin-bottom: -2rem;
+            color: #468add;
+            margin-left: 0.5rem;
+        }
+    
+        .kontaktos {
+            font-size: 1rem;
+            margin-left: 1rem;
+            line-height: 2rem;
+            margin-top: 1rem;
+            margin-right: -6rem;
+        }
+    
+        .kontakth2 {
+            font-family: jumpisregular;
+            color: #468add;
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+    
+        .kontaktinfo {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
 
 }
