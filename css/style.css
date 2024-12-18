@@ -11,6 +11,12 @@
     font-family: jumpisoutline;
     src: url(/fonts/jumpispersonaluse-outline.otf);
 }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 @media screen and (max-width: 414px) {
  
     .burgercheckbox {
@@ -81,6 +87,16 @@
         position: absolute;
         object-fit: cover;
         z-index: -1;
+    }
+
+    .gradientbox {
+        background-color:#444140;
+        background: linear-gradient(180deg, #ffffff00, #444140);
+        z-index: 2;
+        width: 100%;
+        height: 40%;
+        position: absolute;
+        margin-top: -16.4rem;
     }
     
     /* logo styling */
@@ -209,6 +225,7 @@
         margin-right: 3rem;
         width: 20rem;
         height: 10rem;
+        z-index: 3;
     }
 
     .gorgeousimage {
@@ -264,6 +281,7 @@
         margin-right: 3rem;
         width: 20rem;
         height: 10rem;
+        z-index: 3;
     }
 
     .barylimage {
@@ -321,6 +339,7 @@
         margin-left: 10rem;
         margin-top: 2rem;
         margin-bottom: -10rem;
+        z-index: 3;
     }
     
     
@@ -349,7 +368,7 @@
         margin-right: 3rem;
         width: 20rem;
         height: 10rem;
-        
+        z-index: 3;
     }
 
     .ungskabimage {
