@@ -112,7 +112,7 @@ a{
 
     body {
         
-        background: linear-gradient(180deg, #ffffff00, #444140);
+        background-color: #444140;
     }
          
     .frivilligebaggrund {
@@ -131,7 +131,7 @@ a{
         width: 100%;
         height: 40%;
         position: absolute;
-        margin-top: -16.4rem;
+        margin-top: 8rem;
     }
     
     /* logo styling */
@@ -167,5 +167,204 @@ a{
         z-index: 2;
         font-size: 4rem;
         font-weight: lighter;
+    }
+
+    /*frivillige image styling*/
+
+    .frivilligebox {
+        display: grid;
+        }
+    
+        .frivilligeimagebox {
+            margin-top: 12rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+        }
+    
+        .frivilligeimage {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            border: solid #468add 2px;
+        }
+
+    /*hvorfor image styling*/
+
+    .hvorforimagebox {
+        margin-top: 5rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        z-index: 3;
+    }
+    
+    .hvorforimage {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: solid #ff9000 2px;
+        z-index: 3;
+    }
+
+    /*hvorfor styling*/
+
+    .hvorforbox {
+        display: grid;
+    }
+
+    .hvorfortext {
+        margin-left: 9rem;
+        margin-top: 4rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .regularhvorfor {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #ff9000;
+        font-size: 3rem;
+        z-index: 2;
+        
+    }
+    
+    .outlinehvorfor {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-weight: bolder;
+        font-size: 3rem;
+        z-index: 3;
+    }
+
+     /*hvorfor article styling*/
+
+     .hvorforarticle {
+        text-align: justify;
+        width: 90%;
+        color: #ffffff;
+        margin: auto;
+        margin-top: 2.5rem;
+        line-height: 1.5rem;
+        z-index: 3;
+        font-size: 1.2rem;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black; 
+     }
+
+     /*hvad image styling*/
+
+     .hvadimagebox {
+        margin-top: 10rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        z-index: 3;
+    }
+    
+    .hvadimage {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: solid #ff9000 2px;
+        z-index: 3;
+    }
+
+    /*hvad styling*/
+
+    .hvadbox {
+        display: grid;
+    }
+
+    .hvadtext {
+        margin-left: 10rem;
+        margin-top: 4rem;
+        margin-bottom: -3rem;
+    }
+    
+    .regularhvad {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #ff9000;
+        font-size: 3rem;
+        z-index: 2;
+        
+    }
+    
+    .outlinehvad {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-weight: bolder;
+        font-size: 3rem;
+        z-index: 3;
+    }
+
+     /*hvorfor article styling*/
+
+     .hvadarticle {
+        text-align: justify;
+        width: 90%;
+        color: #ffffff;
+        margin: auto;
+        margin-top: 2.5rem;
+        line-height: 1.5rem;
+        z-index: 3;
+        font-size: 1.2rem;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black; 
+     }
+
+
+    /* footer styling*/
+    .footerbox {
+        display: flex;
+        margin-top: 5rem;
+    }
+        
+    .footerlogo {
+        width: 4rem;
+        height: 4rem;
+        margin-left: 1rem;
+    }
+        
+    .somelogobox {
+        margin-top: 2rem;
+        margin-left: 1rem;
+        height: 5rem;
+        width: 9rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+        
+    .somelogo {
+        height: 2rem;
+        width: 2rem;
+        margin-right: -0.1rem;
+        margin-left: -0.3rem;
+    }
+        
+    .somelogo2 {
+        height: 1rem;
+        width: 1rem;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+    }
+        
+    .socialh2 {
+        font-family: jumpisregular;
+        font-size: 1.2rem;
+        margin-bottom: -3rem;
+        color: #468add;
+        margin-left: 2rem;
+    }
+        
+    .kontaktos {
+        font-size: 0.8rem;
+        margin-left: 1rem;
+    }
+        
+    .kontakth2 {
+        font-family: jumpisregular;
+        color: #468add;
+    }
+        
+    .kontaktinfo {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     }
 }
