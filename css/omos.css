@@ -53,7 +53,7 @@ a{
         text-align: center;
         font-family: jumpisregular;
         color: #468add;
-        z-index: 3;
+        z-index: 5;
     }
 
     .menu ul {
@@ -78,7 +78,7 @@ a{
 
     body {
         
-        background: linear-gradient(180deg, #ffffff00, #444140);
+        background-color: #444140;
     }
          
     .omosbaggrund {
@@ -92,12 +92,12 @@ a{
 
     .gradientbox {
         background-color:#444140;
-        background: linear-gradient(180deg, #ffffff00, #444140);
+        background: linear-gradient( 180deg, #ffffff00 1%, #444140 99%);
         z-index: 2;
         width: 100%;
         height: 40%;
         position: absolute;
-        margin-top: -16.4rem;
+        margin-top: 6.25rem;
     }
     
     /* logo styling */
@@ -135,12 +135,6 @@ a{
         font-weight: lighter;
     }
 
-
-
-
-
-
-
     /*center image styling*/
     .omoscenterbox {
         display: grid;
@@ -150,26 +144,32 @@ a{
             margin-top: 10rem;
             margin-left: 3rem;
             margin-right: 3rem;
+            z-index: 3;
         }
     
         .omosimage {
             width: 100%;
             height: 100%;
-            object-fit: fill;
-            border: solid #468add 2px;
+            object-fit: cover;
+            border: solid #ff9000 2px;
+            z-index: 3;
         }
     
+        .missionbox {
+            display: grid;
+        }
+
         .missiontext {
-            margin-left: 8.5rem;
-            margin-top: 10rem;
-            margin-bottom: -6rem;
+            margin-left: 8rem;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
         }
         
         .regularmission {
             font-family: jumpisregular;
             position: absolute;
             color: #ff9000;
-            font-size: 2rem;
+            font-size: 3rem;
             z-index: 2;
             
         }
@@ -178,12 +178,29 @@ a{
             font-family: jumpisoutline;
             position: absolute;
             font-weight: bolder;
-            font-size: 2rem;
+            font-size: 3rem;
+            z-index: 3;
         }
 
+        /*mission article styling*/
+
+        .missionarticle {
+            text-align: justify;
+            width: 90%;
+            color: #ffffff;
+            margin: auto;
+            margin-top: 2.5rem;
+            line-height: 1.5rem;
+            z-index: 3;
+            font-size: 1.2rem;
+            text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black; 
+        }
+
+
+        /* footer styling*/
         .footerbox {
             display: flex;
-            margin-top: 15rem;
+            margin-top: 5rem;
         }
     
         .footerlogo {
