@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg" href="/images/radarlogo.webp">
     <title>Radar</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/galleri.css">
     
 </head>
 <body>
 
-    <img class="forsidebaggrund" src="images/forsidebaggrund.webp" alt="billede af skilt der viser vej til radar">
+    <img class="galleribaggrund" src="images/galleribaggrund.webp" alt="billede af radar indgang set oppefra">
    
     <section class="backgroundimage">
         <header> 
@@ -28,7 +28,19 @@
                 <ul>
                     <li><a href="index.html">forside</a></li>
                     <li><a href="events.html">events</a></li>
-                    <li><a href="omos.html">om os</a></li>
+                    <li class="dropdown"><a href="#">om os</a>
+                        <ul class="content">
+
+                            <li>
+                                <a href="omos.html">mission</a>
+                            </li>
+
+                            <li>
+                                <a href="galleri.html">galleri</a>
+                            </li>
+
+                        </ul>
+                    </li>
                     <li><a href="frivillig.html">frivillig</a></li>
                 </ul>
             </nav>
@@ -40,35 +52,38 @@
         </header>
 
         <main>
-            <section class="galleribox">
-
-                <h2 class="outlinegalleri">galleri</h2>
-                <h2 class="regulargalleri">galleri</h2>
-
-                <section class="tigerbox">
-                <img class="tigerimage" src="images/galleri1.webp" alt="billede af tiger grafitti">
+            <section class="container">
+                <section class="sliderbox">
+                    <section class="sliderwrapper">
+                        <section class="slider">
+                            <img id="slide1" src="images/galleri1.webp" alt="billede af grafitti af en tiger">
+                            <img id="slide2" src="images/galleri2.webp" alt="billede af en live koncert">
+                            <img id="slide3" src="images/galleri3.webp" alt="billede af grafitti foran radar">
+                            <img id="slide4" src="images/galleri4.webp" alt="billede af en børnekoncert">
+                            <img id="slide5" src="images/galleri5.webp" alt="billede af væg fyldt med grafitti">
+                            <img id="slide6" src="images/galleri6.webp" alt="billede af skil hvor der står radar">
+                            <img id="slide7" src="images/galleri7.webp" alt="billede af indgangen til radar">
+                        </section>
+                        <section class="slidernav">
+                            <a href="#slide1"></a>
+                            <a href="#slide2"></a>
+                            <a href="#slide3"></a>
+                            <a href="#slide4"></a>
+                            <a href="#slide5"></a>
+                            <a href="#slide6"></a>
+                            <a href="#slide7"></a>
+                        </section>
+                    </section>
                 </section>
-
-                <section class="livebox">
-                    <img class="liveimage" src="images/galleri2.webp" alt="billede af live koncert">
-                </section>
-
-                <section class="grafittibox">
-                    <img class="grafittiimage" src="images/galleri3.webp" alt="billede af grafitti">
-                </section>
-
-                <section class="kidsbox">
-                    <img class="kidsimage" src="images/galleri4.webp" alt="billede af børne koncert">
-                </section>
-                <section class="semeretext">
-                    <a href="galleri.html"><h3 class="regularsemere">se mere</h3></a>
-                    <a href="galleri.html"><h3 class="outlinesemere">se mere</h3></a>
-                </section>
-
             </section>
+
+            
+
         </main>
 
         <footer>
+            <article class="gradientbox"></article>
+            
             <section class="footerbox">
                 <a href="index.html"><img class="footerlogo" src="images/radarlogo.webp" alt="radar logo"></a>
                 <section class="socialmedia">

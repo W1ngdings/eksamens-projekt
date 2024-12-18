@@ -52,7 +52,6 @@ a{
         width: 100%;
         text-align: center;
         font-family: jumpisregular;
-        color: #468add;
         z-index: 5;
     }
 
@@ -75,7 +74,43 @@ a{
         display: block;
     }
     
+    /*dropdown menu styling */ 
 
+    .dropdown {
+        position: relative; 
+    }
+    
+    
+    .dropdown .content {
+        display: none; 
+        position: absolute; 
+        top: 100%; 
+        left: 0; 
+        background-color: #468add; 
+        list-style: none;
+        margin-left: 6.5rem;
+        z-index: 10;
+        width: 50%; 
+    }
+    
+    
+    .dropdown .content li {
+        padding: 0.8rem;
+    }
+    
+    .dropdown .content li a {
+        color: #ff9000;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+    
+    
+    .dropdown:hover .content {
+        display: block; 
+    }
+
+    /*background styling*/
+    
     body {
         
         background-color: #444140;
