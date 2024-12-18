@@ -17,6 +17,8 @@ a{
     color: inherit;
 }
 
+/*breakpoint smartphone*/
+
 @media screen and (max-width: 414px) {
  
     .burgercheckbox {
@@ -367,4 +369,11 @@ a{
     .kontaktinfo {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     }
+
+
+    
+}
+
+@media screen and (max-width: 414px) {
+
 }
