@@ -570,7 +570,7 @@ a{
 }
 
  
-@media screen and (min-width: 1366px) {
+@media screen and(min-width: 1366px) {
 
     .burgercheckbox {
         display: none;

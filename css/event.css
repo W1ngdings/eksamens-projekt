@@ -697,7 +697,7 @@ a{
     }
 }
 
-@media screen and (min-width: 912px)  {
+@media screen and (max-width: 912px)  {
 
     .burgercheckbox {
         display: none;
@@ -1403,8 +1403,6 @@ a{
         }
 }
 
-
- 
 @media screen and (min-width: 1366px) {
 
     .burgercheckbox {
