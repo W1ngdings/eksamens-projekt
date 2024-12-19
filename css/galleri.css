@@ -214,7 +214,6 @@ a{
         border-radius: 50%;
         background-color: #ffffff;
         opacity: .75;
-        transform: opacity ease 250ms;
     }
 
     .slidernav a:hover {
@@ -474,7 +473,6 @@ a{
         border-radius: 50%;
         background-color: #ffffff;
         opacity: .75;
-        transform: opacity ease 250ms;
     }
 
     .slidernav a:hover {
@@ -748,7 +746,6 @@ a{
         border-radius: 50%;
         background-color: #ffffff;
         opacity: .75;
-        transform: opacity ease 250ms;
     }
 
     .slidernav a:hover {
