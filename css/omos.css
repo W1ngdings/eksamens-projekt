@@ -294,7 +294,7 @@ a{
 
 }
 
-@media screen and (min-width: 912px)  {
+@media screen and (min-width: 912px) {
 
     .burgercheckbox {
         display: none;
@@ -320,12 +320,12 @@ a{
             margin-top: 6rem;
             color: #ff9000;
             font-size: 2rem;
-            margin-right: 3rem;     
+            margin-right: 7rem;     
 
         }
 
         .forsidemenupunk {
-            margin-left: 23rem;
+            margin-left: 27rem;
         }
         .frivilligemenupunkt {
             margin-right: -5rem;
@@ -396,7 +396,7 @@ a{
         width: 100%;
         height: 40%;
         position: absolute;
-        margin-top: -10.2rem;
+        margin-top: -12.2rem;
     }
     
     /* logo styling */
@@ -444,7 +444,7 @@ a{
         }
     
         .omosimagebox {
-            margin-left: 13rem;
+            margin-left: 17rem;
             margin-top: 8rem;
             z-index: 3;
         }
@@ -462,7 +462,7 @@ a{
         }
 
         .missiontext {
-            margin-left: 3rem;
+            margin-left: 13rem;
             margin-top: -4rem;
             margin-bottom: 2rem;
         }
@@ -489,7 +489,7 @@ a{
         .missionarticle {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             text-align: justify;
-            width: 90%;
+            width: 70%;
             color: #ffffff;
             margin: auto;
             margin-top: 2.5rem;
