@@ -232,6 +232,36 @@ a{
             text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black; 
         }
 
+        /*infographic styling*/
+
+        .infographictext {
+            margin-left: 6rem;
+            margin-top: 2rem;
+        }
+
+        .timeline {
+            width: 20rem;
+            border: solid #ff9000;
+            margin-left: 3rem;
+            margin-top: 6rem;
+        }
+
+        .regularinfo {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #ff9000;
+            font-size: 3rem;
+            z-index: 2;
+        }
+
+        .outlineinfo {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-weight: bolder;
+            font-size: 3rem;
+            z-index: 3;
+        }
+
 
         /* footer styling*/
         .footerbox {
