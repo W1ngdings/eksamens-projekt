@@ -127,7 +127,7 @@ a{
     .gradientbox {
         background-color:#444140;
         background: linear-gradient(180deg, #ffffff00, #444140);
-        z-index: 2;
+        z-index: -1;
         width: 100%;
         height: 40%;
         position: absolute;
@@ -288,7 +288,6 @@ a{
         margin-right: 3rem;
         width: 20rem;
         height: 10rem;
-        z-index: 3;
     }
 
     .gorgeousimage {
@@ -618,6 +617,25 @@ a{
         font-size: 1.5rem;
     }
 
+    .semeretext2 {
+        margin-left: 11rem;
+        margin-top: 1rem;
+        margin-bottom: -8rem;
+    }
+    
+    .regularsemere {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #ff9000;
+        font-size: 1.5rem;
+    }
+
+    .outlinesemere {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-size: 1.5rem;
+    }
+
     /* footer styling */
 
     .footerbox {
@@ -687,7 +705,7 @@ a{
  
 @media screen and (min-width: 1366px) {
 
-    .burgertoggle {
+    .burgercheckbox {
         display: none;
     }
 
@@ -695,21 +713,31 @@ a{
 
         .menu {
             font-family: jumpisregular;
+            
         }
 
         .menu ul {
             display: flex;          
-            justify-content: center; 
+            justify-content: start; 
             padding: 0;             
             margin: 0;     
-            list-style: none;     
+            list-style: none;   
+            
         }
         
         .menu li {
-            margin: auto;      
-            color: #ff9000;          
-            font-size: 2rem;        
+            margin-top: 6rem;
+            color: #ff9000;
+            font-size: 2rem;
+            margin-right: 10rem;     
 
+        }
+
+        .forsidemenupunk {
+            margin-left: 23rem;
+        }
+        .frivilligemenupunkt {
+            margin-right: -5rem;
         }
         
         /*dropdown menu styling */ 
@@ -748,7 +776,13 @@ a{
             display: block; 
         }
 
+        .dropdownmission{
+            margin-top: 0 !important;
+        }
 
+        .dropdowngalleri {
+            margin-top: 0 !important;
+        }
 
             
     body {
@@ -767,11 +801,11 @@ a{
     .gradientbox {
         background-color:#444140;
         background: linear-gradient(180deg, #ffffff00, #444140);
-        z-index: 2;
+        z-index: -1;
         width: 100%;
         height: 40%;
         position: absolute;
-        margin-top: -16.4rem;
+        margin-top: -24.6rem;
     }
     
     /* logo styling */
@@ -786,10 +820,12 @@ a{
         position: absolute;
         z-index: 1;
         margin-left: 5rem;
+        margin-top: -6.2rem;
         
     }
     
     .regularadar {
+        display: none;
         font-family: jumpisregular;
         position: absolute;
         color: black;
@@ -799,6 +835,7 @@ a{
         font-size: 4rem;
     }
     .outlineadar {
+        display: none;
         font-family: jumpisoutline;
         position: absolute;
         color: #ffffff;
@@ -813,123 +850,139 @@ a{
 
     .showbox {
         display: grid;
-        }
+    }
     
-        .showimagebox {
-            margin-top: 10rem;
-            margin-left: 3rem;
-            margin-right: 3rem;
-            padding: 8rem;
-        }
+    .showimagebox {
+        margin-top: 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        padding: 8rem;
+    }
     
-        .showimage {
-            width: 100%;
-            height: 100%;
-            object-fit: fill;
-            border: solid #468add 2px;
-        }
+    .showimage {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border: solid #468add 2px;
+    }
     
-        .showtext {
-            margin-left: 8.5rem;
-            margin-top: 10rem;
-            margin-bottom: -6rem;
-        }
+    .showtext {
+        margin-left: 33rem;
+        margin-top: 10rem;
+        margin-bottom: -5rem;
+    }
         
-        .regularshow {
-            font-family: jumpisregular;
-            position: absolute;
-            color: #ff9000;
-            font-size: 2rem;
-            z-index: 2;
+    .regularshow {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #ff9000;
+        font-size: 4rem;
+        z-index: 2;
             
-        }
+    }
         
-        .outlineshow {
-            font-family: jumpisoutline;
-            position: absolute;
-            font-weight: bolder;
-            font-size: 2rem;
-        }
+    .outlineshow {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-weight: bolder;
+        font-size: 4rem;
+    }
     
-        /* koncert styling */
-        .koncerterbox {
-            display: grid;
+    .koneventbox {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* koncert styling */
+
+    .koncerterbox {
+        display: grid;
+        z-index: 5;
+        width: 50%;
+        margin-left: 8rem;
+        margin-right: 3rem;
             
-        }
+    }
     
-        .koncertertext {
-            margin-left: 9rem;
+    .koncertertext {
+        margin-left: 1rem;
+        margin-top: -4rem;
+        margin-bottom: -6rem;
+    }
+        
+    .regularkoncerter {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #ff9000;
+        font-size: 2rem;
+        z-index: 3;    
+    }
+        
+    .outlinekoncerter {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-weight: bolder;
+        font-size: 2rem;
+        z-index: 3;
+    }
+    
+    .sgbox {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin-top: -7rem;
+    }
+
+    /* soenth styling */
+    
+    .soenthbox {
+        margin-top: 6rem;
+        margin-left: 1rem;
+        width: 16rem;
+        height: 8rem;
+        z-index: 3;
+    }
+    
+    .soenthimage {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border: solid #468add 2px;
+    }
+    
+    .soenthtext {
+        margin-left: 12.2rem;
+        margin-top: -2rem;
+    }
+    
+    .regularsoenth {
+        font-family: jumpisregular;
+        position: absolute;
+        color: #468add;
+        font-size: 1.5rem;
+    }
+    
+    .outlinesoenth {
+        font-family: jumpisoutline;
+        position: absolute;
+        font-size: 1.5rem;
+    }
+    
+    .soenthsome {
+        position: absolute;
+        margin-top: -7.8rem;
+        margin-left: 0.4rem;
+    }
+    
+    /* gorgeous styling */
+    
+    .gorgeousbox {
             margin-top: 2rem;
-            margin-bottom: -6rem;
-        }
-        
-        .regularkoncerter {
-            font-family: jumpisregular;
-            position: absolute;
-            color: #ff9000;
-            font-size: 2rem;
-    
-            
-        }
-        
-        .outlinekoncerter {
-            font-family: jumpisoutline;
-            position: absolute;
-            font-weight: bolder;
-            font-size: 2rem;
-        }
-    
-         /* soenth styling */
-    
-         .soenthbox {
-            margin-top: 6rem;
-            margin-left: 3rem;
-            margin-right: 3rem;
-            width: 20rem;
-            height: 10rem;
-            z-index: 3;
-            
-        }
-    
-        .soenthimage {
-            width: 100%;
-            height: 100%;
-            object-fit: fill;
-            border: solid #468add 2px;
-        }
-    
-        .soenthtext {
-            margin-left: 16.2rem;
-            margin-top: -2rem;
-        }
-    
-        .regularsoenth {
-            font-family: jumpisregular;
-            position: absolute;
-            color: #468add;
-            font-size: 1.5rem;
-        }
-    
-        .outlinesoenth {
-            font-family: jumpisoutline;
-            position: absolute;
-            font-size: 1.5rem;
-        }
-    
-        .soenthsome {
-            position: absolute;
-            margin-top: -9.8rem;
-            margin-left: 0.4rem;
-        }
-    
-        /* gorgeous styling */
-    
-        .gorgeousbox {
-            margin-top: 2rem;
-            margin-left: 3rem;
-            margin-right: 3rem;
-            width: 20rem;
-            height: 10rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            width: 16rem;
+            height: 8rem;
             z-index: 3;
         }
     
@@ -941,7 +994,7 @@ a{
         }
     
         .gorgeoustext {
-            margin-left: 14.8rem;
+            margin-left: 10.6rem;
             margin-top: -2.3rem;
         }
     
@@ -961,18 +1014,24 @@ a{
     
         .gorgeoussome {
             position: absolute;
-            margin-top: -9.8rem;
+            margin-top: -7.8rem;
             margin-left: 0.4rem;
         }
         
+        .bubox {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            margin-top: -1rem;
+        }
+
         /* baryl styling */
     
         .barylbox {
             margin-top: 2rem;
-            margin-left: 3rem;
-            margin-right: 3rem;
-            width: 20rem;
-            height: 10rem;
+            margin-left: 1rem;
+            width: 16rem;
+            height: 8rem;
         }
     
         .barylimage {
@@ -983,7 +1042,7 @@ a{
         }
     
         .baryltext {
-            margin-left: 16.8rem;
+            margin-left: 12.8rem;
             margin-top: -2.2rem;
         }
     
@@ -1003,27 +1062,27 @@ a{
     
         .barylsome {
             position: absolute;
-            margin-top: -9.8rem;
+            margin-top: -7.8rem;
             margin-left: 0.4rem;
         }
     
         .spotifylogo {
-            height: 2rem;
-            width: 2rem;
+            height: 1rem;
+            width: 1rem;
         }
         .soundcloudlogo {
-            height: 2rem;
-            width: 2rem;
+            height: 1rem;
+            width: 1rem;
         }
     
         /*ungskab styling*/
     
         .ungskabbox {
             margin-top: 2rem;
-            margin-left: 3rem;
+            margin-left: 1rem;
             margin-right: 3rem;
-            width: 20rem;
-            height: 10rem;
+            width: 16rem;
+            height: 8rem;
             
         }
     
@@ -1035,7 +1094,7 @@ a{
         }
     
         .ungskabtext {
-            margin-left: 14.3rem;
+            margin-left: 10.3rem;
             margin-top: -2.1rem;
             position: absolute;
             width: 6rem;
@@ -1056,13 +1115,13 @@ a{
     
         .ungskabsome {
             position: absolute;
-            margin-top: -9.8rem;
+            margin-top: -7.8rem;
             margin-left: 0.4rem;
         }
     
         .semeretext {
-            margin-left: 11rem;
-            margin-top: 1rem;
+            margin-left: 1rem;
+            margin-top: 0.5rem;
             margin-bottom: -8rem;
         }
         
@@ -1083,11 +1142,13 @@ a{
     
         .eventsbox {
             display: grid;
+            margin-left: 43rem;
+            margin-top: -12rem;
         }
     
         .eventstext {
-            margin-left: 10.8rem;
-            margin-top: 6rem;
+            margin-left: 28.8rem;
+            margin-top: -8rem;
             margin-bottom: -8rem;
         }
         
@@ -1106,15 +1167,22 @@ a{
             font-weight: bolder;
             font-size: 2rem;
         }
+
+        .djmusicbox {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            margin-top: -7rem;
+        }
     
         /* dj styling*/
     
         .djbox {
-            margin-top: 10rem;
-            margin-left: 3rem;
-            margin-right: 3rem;
-            width: 20rem;
-            height: 10rem;
+            margin-top: 2rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            width: 16rem;
+            height: 8rem;
             
         }
     
@@ -1126,7 +1194,7 @@ a{
         }
     
         .djtext {
-            margin-left: 12.8rem;
+            margin-left: 8.8rem;
             margin-top: -2.1rem;
             position: absolute;
             width: 7rem;
@@ -1150,10 +1218,9 @@ a{
     
         .musiclabbox {
             margin-top: 2rem;
-            margin-left: 3rem;
-            margin-right: 3rem;
-            width: 20rem;
-            height: 10rem;
+            margin-right: 1rem;
+            width: 16rem;
+            height: 8rem;
             
         }
     
@@ -1165,7 +1232,7 @@ a{
         }
     
         .musiclabtext {
-            margin-left: 10.5rem;
+            margin-left: 6.5rem;
             margin-top: -2.1rem;
             position: absolute;
             width: 11rem;
@@ -1187,11 +1254,9 @@ a{
         /*udendoers styling*/
     
         .udendoersbox {
-            margin-top: 2rem;
-            margin-left: 3rem;
-            margin-right: 3rem;
-            width: 20rem;
-            height: 10rem;
+            margin-left: 1rem;
+            width: 16rem;
+            height: 8rem;
             
         }
     
@@ -1203,7 +1268,7 @@ a{
         }
     
         .udendoerstext {
-            margin-left: 9.7rem;
+            margin-left: 5.7rem;
             margin-top: -2.1rem;
             position: absolute;
             width: 10rem;
@@ -1225,11 +1290,10 @@ a{
         /*random styling*/
     
         .randombox {
-            margin-top: 2rem;
-            margin-left: 3rem;
-            margin-right: 3rem;
-            width: 20rem;
-            height: 10rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            width: 16rem;
+            height: 8rem;
             
         }
     
@@ -1241,7 +1305,7 @@ a{
         }
     
         .randomtext {
-            margin-left: 12rem;
+            margin-left: 8rem;
             margin-top: -2.1rem;
             position: absolute;
             width: 10rem;
@@ -1260,16 +1324,29 @@ a{
             font-size: 1.5rem;
         }
 
+        .udenranbox {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            margin-top: 1rem;
+        }
+
+        .semeretext2 {
+        margin-left: 72.3rem;
+        margin-top: 0.5rem;
+        margin-bottom: -8rem;
+        }
 
         .footerbox {
             display: flex;
-            margin-top: 4rem;
+            margin-top: 15rem;
             width: 100%;
             margin-bottom: 3rem;
             flex-direction: row;
             flex-wrap: nowrap;
             justify-content: space-around;
             align-items: center;
+            margin-left: -5rem;
         }
     
         .footerlogo {

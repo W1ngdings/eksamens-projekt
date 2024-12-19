@@ -381,7 +381,7 @@ a{
  
 @media screen and (min-width: 1366px) {
 
-    .burgertoggle {
+    .burgercheckbox {
         display: none;
     }
 
@@ -447,7 +447,7 @@ a{
         background-color: #444140;
     }
          
-    .frivilligbaggrund {
+    .frivilligebaggrund {
         height: 100%;
         width: 100%;
         filter: grayscale(100%);
