@@ -350,12 +350,12 @@ a{
             margin-top: 6rem;
             color: #ff9000;
             font-size: 2rem;
-            margin-right: 7rem;     
+            margin-right: 4rem;     
 
         }
 
-        .forsidemenupunk {
-            margin-left: 27rem;
+        .forsidemenupunkt {
+            margin-left:  18rem;
         }
         .frivilligemenupunkt {
             margin-right: -5rem;
@@ -426,7 +426,7 @@ a{
         width: 100%;
         height: 40%;
         position: absolute;
-        margin-top: -12.2rem;
+        margin-top: -8rem;
     }
     
     /* logo styling */
@@ -474,7 +474,7 @@ a{
         }
     
         .omosimagebox {
-            margin-left: 17rem;
+            margin-left: 14rem;
             margin-top: 8rem;
             z-index: 3;
         }
@@ -492,8 +492,8 @@ a{
         }
 
         .missiontext {
-            margin-left: 13rem;
-            margin-top: -4rem;
+            margin-left: 8rem;
+            margin-top: 0rem;
             margin-bottom: 2rem;
         }
         
@@ -528,6 +528,36 @@ a{
             font-size: 1.2rem;
             text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black; 
         }
+
+                /*infographic styling*/
+
+                .infographictext {
+                    margin-left: 23rem;
+                    margin-top: 2rem;
+                }
+        
+                .timeline {
+                    width: 23rem;
+                    border: solid #ff9000;
+                    margin-left: 17rem;
+                    margin-top: 6rem;
+                }
+        
+                .regularinfo {
+                    font-family: jumpisregular;
+                    position: absolute;
+                    color: #ff9000;
+                    font-size: 3rem;
+                    z-index: 2;
+                }
+        
+                .outlineinfo {
+                    font-family: jumpisoutline;
+                    position: absolute;
+                    font-weight: bolder;
+                    font-size: 3rem;
+                    z-index: 3;
+                }
 
         .footerbox {
             display: flex;
@@ -600,7 +630,7 @@ a{
 }
 
  
-@media screen and(min-width: 1366px) {
+@media screen and (min-width: 1366px) {
 
     .burgercheckbox {
         display: none;
@@ -626,12 +656,12 @@ a{
             margin-top: 6rem;
             color: #ff9000;
             font-size: 2rem;
-            margin-right: 10rem;     
+            margin-right: 8rem;     
 
         }
 
-        .forsidemenupunk {
-            margin-left: 23rem;
+        .forsidemenupunkt {
+            margin-left: 30rem;
         }
         .frivilligemenupunkt {
             margin-right: -5rem;
@@ -716,7 +746,7 @@ a{
         width: 10rem;
         position: absolute;
         z-index: 1;
-        margin-left: 5rem;
+        margin-left: 10rem;
         margin-top: -6.2rem;
         
     }
@@ -807,7 +837,35 @@ a{
         }
 
 
+                /*infographic styling*/
 
+                .infographictext {
+                    margin-left: 35rem;
+                    margin-top: 4rem;
+                }
+        
+                .timeline {
+                    width: 23rem;
+                    border: solid #ff9000;
+                    margin-left: 29rem;
+                    margin-top: 6rem;
+                }
+        
+                .regularinfo {
+                    font-family: jumpisregular;
+                    position: absolute;
+                    color: #ff9000;
+                    font-size: 3rem;
+                    z-index: 2;
+                }
+        
+                .outlineinfo {
+                    font-family: jumpisoutline;
+                    position: absolute;
+                    font-weight: bolder;
+                    font-size: 3rem;
+                    z-index: 3;
+                }
 
         .footerbox {
             display: flex;
