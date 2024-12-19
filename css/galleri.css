@@ -286,10 +286,278 @@ a{
 
 }
 
-@media screen and (min-width: 415px) and (max-width:1365 ) {
+@media screen and (min-width: 912px)  {
 
+    .burgercheckbox {
+        display: none;
+    }
+
+        /* Styling af menuen */
+
+        .menu {
+            font-family: jumpisregular;
+            
+        }
+
+        .menu ul {
+            display: flex;          
+            justify-content: start; 
+            padding: 0;             
+            margin: 0;     
+            list-style: none;   
+            
+        }
+        
+        .menu li {
+            margin-top: 6rem;
+            color: #ff9000;
+            font-size: 2rem;
+            margin-right: 3rem;     
+
+        }
+
+        .forsidemenupunk {
+            margin-left: 23rem;
+        }
+        .frivilligemenupunkt {
+            margin-right: -5rem;
+        }
+        
+        /*dropdown menu styling */ 
+    
+        .dropdown {
+            position: relative; 
+         }
+            
+            
+        .dropdown .content {
+            display: none; 
+            position: absolute; 
+            top: 100%;
+            left: -7rem;  
+            background-color: #468add; 
+            list-style: none;
+            margin-left: 6.5rem;
+            z-index: 10;
+            width: 130%; 
+            text-align: center;
+        }
+            
+            
+        .dropdown .content li {
+            padding: 0.8rem;
+        }
+            
+        .dropdown .content li a {
+            color: #ff9000;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+            
+            
+         .dropdown:hover .content {
+            display: block; 
+        }
+
+        .dropdownmission{
+            margin-top: 0 !important;
+        }
+
+        .dropdowngalleri {
+            margin-top: 0 !important;
+        }
+
+            
+    body {
+        background-color: #444140;
+    }
+         
+    .galleribaggrund {
+        height: 100%;
+        width: 100%;
+        filter: grayscale(100%);
+        position: absolute;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .gradientbox {
+        background-color:#444140;
+        background: linear-gradient(180deg, #ffffff00, #444140);
+        z-index: -1;
+        width: 100%;
+        height: 40%;
+        position: absolute;
+        margin-top: -31rem;
+    }
+    
+    /* logo styling */
+    .logobox {
+        width: 100%;
+        height: 100%;
+    }
+
+    .radarlogo {
+        height: 10rem;
+        width: 10rem;
+        position: absolute;
+        z-index: 1;
+        margin-left: 5rem;
+        margin-top: -6.2rem;
+        
+    }
+    
+    .regularadar {
+        display: none;
+        font-family: jumpisregular;
+        position: absolute;
+        color: black;
+        margin-left: 12.5rem;
+        margin-top: 2rem;
+        z-index: 2;
+        font-size: 4rem;
+    }
+    .outlineadar {
+        display: none;
+        font-family: jumpisoutline;
+        position: absolute;
+        color: #ffffff;
+        margin-left: 12.5rem;
+        margin-top: 2rem;
+        z-index: 2;
+        font-size: 4rem;
+        font-weight: lighter;
+    }
+
+
+    
+    .container {
+        padding: 2rem;
+    }
+
+    .sliderwrapper {
+        position: relative;
+        max-width: 70rem;
+        margin-top: -10rem;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid #468add 3px;
+    }
+
+    .slider {
+        display: flex;
+        aspect-ratio: 16 / 9;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+    }
+
+    .slider img {
+        flex: 1 0 100%;
+        scroll-snap-align: start;
+        object-fit: cover;
+    }
+    .slidernav {
+        display: flex;
+        column-gap: 1rem;
+        position: absolute;
+        bottom: 1.25rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+
+    .slidernav a {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background-color: #ffffff;
+        opacity: .75;
+        transform: opacity ease 250ms;
+    }
+
+    .slidernav a:hover {
+        opacity: 1;
+    }
+
+    .sliderbox {
+        margin-top: 15rem;
+    }
+
+
+
+
+    .footerbox {
+        display: flex;
+        margin-top: 15rem;
+        width: 100%;
+        margin-bottom: 3rem;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 1rem;
+    }
+
+    .footerlogo {
+        width: 6rem;
+        height: 6rem;
+        margin-left: -2rem;
+    }
+
+    .somelogobox {
+        margin-top: 2rem;
+        margin-left: 1rem;
+        height: 5rem;
+        width: 9rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .somelogo {
+        height: 5rem;
+        width: 5rem;
+        margin-right: -0.1rem;
+        margin-left: -0.3rem;
+    }
+
+    .somelogo2 {
+        height: 2.5rem;
+        width: 2.5rem;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+    }
+
+    .socialh2 {
+        font-family: jumpisregular;
+        font-size: 2rem;
+        margin-bottom: -2rem;
+        color: #468add;
+        margin-left: 0.5rem;
+    }
+
+    .kontaktos {
+        font-size: 0.8rem;
+        margin-left: 1rem;
+        line-height: 2rem;
+        margin-top: 1rem;
+        margin-right: 2rem;
+    }
+
+    .kontakth2 {
+        font-family: jumpisregular;
+        color: #468add;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .kontaktinfo {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
 }
-
  
 @media screen and (min-width: 1366px) {
 

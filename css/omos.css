@@ -220,6 +220,7 @@ a{
         /*mission article styling*/
 
         .missionarticle {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             text-align: justify;
             width: 90%;
             color: #ffffff;
@@ -293,8 +294,279 @@ a{
 
 }
 
-@media screen and (min-width: 415px) and (max-width:1365 ) {
+@media screen and (min-width: 912px)  {
 
+    .burgercheckbox {
+        display: none;
+    }
+
+        /* Styling af menuen */
+
+        .menu {
+            font-family: jumpisregular;
+            
+        }
+
+        .menu ul {
+            display: flex;          
+            justify-content: start; 
+            padding: 0;             
+            margin: 0;     
+            list-style: none;   
+            
+        }
+        
+        .menu li {
+            margin-top: 6rem;
+            color: #ff9000;
+            font-size: 2rem;
+            margin-right: 3rem;     
+
+        }
+
+        .forsidemenupunk {
+            margin-left: 23rem;
+        }
+        .frivilligemenupunkt {
+            margin-right: -5rem;
+        }
+        
+        /*dropdown menu styling */ 
+    
+        .dropdown {
+            position: relative; 
+         }
+            
+            
+        .dropdown .content {
+            display: none; 
+            position: absolute; 
+            top: 100%;
+            left: -7rem;  
+            background-color: #468add; 
+            list-style: none;
+            margin-left: 6.5rem;
+            z-index: 10;
+            width: 130%; 
+            text-align: center;
+        }
+            
+            
+        .dropdown .content li {
+            padding: 0.8rem;
+        }
+            
+        .dropdown .content li a {
+            color: #ff9000;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+            
+            
+         .dropdown:hover .content {
+            display: block; 
+        }
+
+        .dropdownmission{
+            margin-top: 0 !important;
+        }
+
+        .dropdowngalleri {
+            margin-top: 0 !important;
+        }
+
+            
+    body {
+        background-color: #444140;
+    }
+         
+    .omosbaggrund {
+        height: 100%;
+        width: 100%;
+        filter: grayscale(100%);
+        position: absolute;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .gradientbox {
+        background-color:#444140;
+        background: linear-gradient(180deg, #ffffff00, #444140);
+        z-index: -1;
+        width: 100%;
+        height: 40%;
+        position: absolute;
+        margin-top: -10.2rem;
+    }
+    
+    /* logo styling */
+    .logobox {
+        width: 100%;
+        height: 100%;
+    }
+
+    .radarlogo {
+        height: 10rem;
+        width: 10rem;
+        position: absolute;
+        z-index: 1;
+        margin-left: 5rem;
+        margin-top: -6.2rem;
+        
+    }
+    
+    .regularadar {
+        display: none;
+        font-family: jumpisregular;
+        position: absolute;
+        color: black;
+        margin-left: 12.5rem;
+        margin-top: 2rem;
+        z-index: 2;
+        font-size: 4rem;
+    }
+    .outlineadar {
+        display: none;
+        font-family: jumpisoutline;
+        position: absolute;
+        color: #ffffff;
+        margin-left: 12.5rem;
+        margin-top: 2rem;
+        z-index: 2;
+        font-size: 4rem;
+        font-weight: lighter;
+    }
+
+    
+    /*center image styling*/
+    .omoscenterbox {
+        display: flex;
+        }
+    
+        .omosimagebox {
+            margin-left: 13rem;
+            margin-top: 8rem;
+            z-index: 3;
+        }
+    
+        .omosimage {
+            width: 75%;
+            height: 75%;
+            object-fit: cover;
+            border: solid #ff9000 2px;
+            z-index: 3;
+        }
+    
+        .missionbox {
+            display: grid;
+        }
+
+        .missiontext {
+            margin-left: 3rem;
+            margin-top: -4rem;
+            margin-bottom: 2rem;
+        }
+        
+        .regularmission {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #ff9000;
+            font-size: 3rem;
+            z-index: 2;
+            
+        }
+        
+        .outlinemission {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-weight: bolder;
+            font-size: 3rem;
+            z-index: 3;
+        }
+
+        /*mission article styling*/
+
+        .missionarticle {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: justify;
+            width: 90%;
+            color: #ffffff;
+            margin: auto;
+            margin-top: 2.5rem;
+            line-height: 1.5rem;
+            z-index: 3;
+            font-size: 1.2rem;
+            text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black; 
+        }
+
+        .footerbox {
+            display: flex;
+            margin-top: 4rem;
+            width: 100%;
+            margin-bottom: 3rem;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+    
+        .footerlogo {
+            width: 8rem;
+            height: 8rem;
+            margin-left: -1rem;
+        }
+    
+        .somelogobox {
+            margin-top: 2rem;
+            margin-left: 1rem;
+            height: 5rem;
+            width: 9rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .somelogo {
+            height: 5rem;
+            width: 5rem;
+            margin-right: -0.1rem;
+            margin-left: -0.3rem;
+        }
+    
+        .somelogo2 {
+            height: 2.5rem;
+            width: 2.5rem;
+            margin-left: 0.3rem;
+            margin-right: 0.3rem;
+        }
+    
+        .socialh2 {
+            font-family: jumpisregular;
+            font-size: 2rem;
+            margin-bottom: -2rem;
+            color: #468add;
+            margin-left: 0.5rem;
+        }
+    
+        .kontaktos {
+            font-size: 1rem;
+            margin-left: 1rem;
+            line-height: 2rem;
+            margin-top: 1rem;
+            margin-right:0;
+        }
+    
+        .kontakth2 {
+            font-family: jumpisregular;
+            color: #468add;
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+    
+        .kontaktinfo {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
 }
 
  
@@ -400,7 +672,7 @@ a{
         width: 100%;
         height: 40%;
         position: absolute;
-        margin-top: -24.6rem;
+        margin-top: -20rem;
     }
     
     /* logo styling */
@@ -443,6 +715,66 @@ a{
 
 
 
+    /*center image styling*/
+    .omoscenterbox {
+        display: flex;
+        }
+    
+        .omosimagebox {
+            margin-left: 17rem;
+            margin-top: 8rem;
+            z-index: 3;
+        }
+    
+        .omosimage {
+            width: 75%;
+            height: 75%;
+            object-fit: cover;
+            border: solid #ff9000 2px;
+            z-index: 3;
+        }
+    
+        .missionbox {
+            display: grid;
+        }
+
+        .missiontext {
+            margin-left: 4.2rem;
+            margin-top: -4rem;
+            margin-bottom: 2rem;
+        }
+        
+        .regularmission {
+            font-family: jumpisregular;
+            position: absolute;
+            color: #ff9000;
+            font-size: 3rem;
+            z-index: 2;
+            
+        }
+        
+        .outlinemission {
+            font-family: jumpisoutline;
+            position: absolute;
+            font-weight: bolder;
+            font-size: 3rem;
+            z-index: 3;
+        }
+
+        /*mission article styling*/
+
+        .missionarticle {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: justify;
+            width: 90%;
+            color: #ffffff;
+            margin: auto;
+            margin-top: 2.5rem;
+            line-height: 1.5rem;
+            z-index: 3;
+            font-size: 1.2rem;
+            text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black; 
+        }
 
 
 
